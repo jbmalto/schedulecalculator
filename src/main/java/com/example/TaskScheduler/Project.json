@@ -1,0 +1,34 @@
+{
+  "projectName": "Project A",
+  "tasks": [
+    {
+      "taskName": "Task A",
+      "taskDuration": 3,
+      "dependencies": []
+    },
+    {
+      "taskName": "Task B",
+      "taskDuration": 32,
+      "dependencies": [
+        {
+          "taskName": "SubTask B-1,",
+          "endDate": "2024-12-03"
+        }
+      ]
+    },
+    {
+      "taskName": "Task C",
+      "taskDuration": 24,
+      "dependencies": [
+        {
+          "taskName": "SubTask C-1",
+          "endDate": "2024-11-07"
+        },
+        {
+          "taskName": "Subtask C-2",
+          "endDate": "2025-01-12"
+        }
+      ]
+    }
+  ]
+}
